@@ -6,7 +6,7 @@ from .models import Book_Table
 from django.contrib.auth.models import User
 
 
-@login_required
+
 def home(request):
     return render(request, 'main/home.html')
 
